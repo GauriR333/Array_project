@@ -9,9 +9,10 @@ int main(int argc, char** argv) {
 	Myarry arr(size);
 	while(choice!=10)
 	{		
-	cout<<"\n\t\t1.Add an element: ";
-	cout<<"\n\t\t2.Display all elements: ";
-	cout<<"\n\t\t3.search data : ";
+	cout<<"\n\t\t1.Add an element";
+	cout<<"\n\t\t2.Display all elements";
+	cout<<"\n\t\t3.search data";
+	cout<<"\n\t\t4.Delete Data";
 	cout<<"\n\t\t10.Exit";
 	cout<<"\nEnter your choice: ";
 	cin>>choice;
